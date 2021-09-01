@@ -14,10 +14,10 @@
 .form__input {
   padding-left: 42px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-&:focus,
-&:hover {
-  border-color: $accent-color;
-}
+  &:focus,
+  &:hover {
+    border-color: $accent-color;
+  }
 }
 .form__policy {
   display: flex;
@@ -33,6 +33,7 @@
 .form__conditions {
   color: $accent-color;
   margin-left: 5px;
+  text-decoration: underline;
 }
 .form__label {
   margin-bottom: 4px;
@@ -64,12 +65,11 @@
   margin-bottom: 20px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-&:focus,
-&:hover {
-  border-color: $accent-color;
+  &:focus,
+  &:hover {
+    border-color: $accent-color;
+  }
 }
-}
-
 
 .form__input:hover + .icon-form,
 .form__input:focus + .icon-form {
